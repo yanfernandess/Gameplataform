@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RATONBATTLES</title>
+    <link rel="icon" href="#"> <!--icone-->
+
+    <link href="../bootstrap/css1/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/teeste.css" rel="stylesheet">
+
+  </head>
+
+  <script>
+    function funcao1()
+    {
+    alert("Registrado com sucesso !!!");
+    }
+    </script>
+    
+
+  <body>
+      <div class="form_class">
+        <h2 class="text-centerr"> RATONBATTLES</h2>
+        <form method="post" action="registra_usuario.php">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nome Completo</label>
+              <input type="email" class="form-control" id="usuario" name="usuario" aria-describedby="emailHelp" placeholder="Nome Completo">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">ID Activision</label>
+              <input type="email" class="form-control" id="usuario" name="usuario" aria-describedby="emailHelp" placeholder="ID Activision">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Confirmar senha</label>
+              <input type="password" class="form-control" id="senha" name="senha" placeholder="Confirmar senha">
+            </div>
+            <a class="btn btn-primary col-md-12" data-toggle="collapse" href="RATONBATTLES-LOGIN.html" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="funcao1()" value="Exibir Alert">
+                Registrar-se 
+            </a>
+            <a class="btn btn-primary col-md-12 mt-2" data-toggle="collapse" href="../RATONBATTLES-LOGIN.html" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Cancelar 
+          </a>
+        </form>
+  </body>
+</html>

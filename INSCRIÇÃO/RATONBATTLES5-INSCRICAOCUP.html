@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RATONBATTLES</title>
+    <link rel="icon" href="#"> <!--icone-->
+
+    <link href="../bootstrap/css1/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/teeste.css" rel="stylesheet">
+
+  </head>
+  <script>
+    function funcao1()
+    {
+    alert("Inscrito com sucesso !!!");
+    }
+    </script>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">RATONBATTLES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Menu <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Partidas</a>
+            <a class="nav-item nav-link" href="#">Meu perfil</a>
+            <a class="nav-item nav-link" href="../JOGADORES/RATONBATTLESINSCRICAO.html">Cadastrar</a>
+            <a class="nav-item nav-link" href="../RATONBATTLES-LOGIN.html">Sair</a>
+          </div>
+        </div>
+    </nav>
+      <form>
+        <div class="perfil1">
+          <h1>INSCRIÇÃO</h1><br>
+          <div class="form-group col-md-12">
+              <label for="exampleFormControlInput1">NOME DO TIME</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+
+          <div class="form-group col-md-12">
+              <label for="exampleFormControlTextarea1">Players</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <div class="form-group col-md-12">
+              <label for="exampleFormControlSelect1">Campeonatos</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>4v4 Variante MD1</option>
+                <option>2v2 SND MD3</option>
+              </select><br>
+              <button type="submit" id="submit" class="btn-block btn btn-primary submit-button btn-block" data-loading-text="" tabindex="0" aria-label="Entrar" onclick="funcao1()" value="Exibir Alert">
+                Inscreva-se
+              </button>
+          </div>
+        </div> 
+      </form>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # Gameplataform
 
-<________________________README_____________________________>
+README
 
 Plataforma criada para jogadores de Call of duty. E Porque tive essa idéia de criar uma plataforma.
 
